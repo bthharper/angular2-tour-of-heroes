@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug TypeScript",
+            "name": "Launch",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app/main.ts",
+            "program": "${workspaceRoot}/node_modules/lite-server/bin/lite-server",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
